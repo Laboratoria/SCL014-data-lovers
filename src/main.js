@@ -17,6 +17,6 @@ for (let i = 0; i <= personajes.length; i++) {
 
     //console.log(personajes[i].name)
     //console.log(personajes[i].image)
-    const fotosPersonajes =
+    const fotosPersonajes;
 
 }
