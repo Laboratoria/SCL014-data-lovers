@@ -1,6 +1,5 @@
 //import { example,data } from 
 // aqui va todo lo del DOM para imprimir TODO  lo que queremos mostrar en el HTML
-
 // aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
 // Importar las funciones que creamos en el data.js
 './data.js';
