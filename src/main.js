@@ -25,7 +25,7 @@ const mostrarPersonajes = () => {
 
             namePersonaje.innerHTML +=
                 `<div class='imagenes'>
-                <img src = git${personajes[i].image }></div>
+                <img src = ${personajes[i].image }></div>
                 <div class='name'> <h1>${personajes[i].name}</h1></div>
                 <div class='name'> <h1>${personajes[i].dateOfBirth}`
 
