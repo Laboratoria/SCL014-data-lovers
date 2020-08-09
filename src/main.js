@@ -3,7 +3,6 @@
 
 // aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
 // Importar las funciones que creamos en el data.js
-
 './data.js';
 import data from './data/potter/potter.js';
 //console.log(example,data);
@@ -27,7 +26,9 @@ const mostrarPersonajes = () => {
             namePersonaje.innerHTML +=
                 `<div class='imagenes'>
                 <img src = git${personajes[i].image }></div>
-                <div class='name'> <h1>${personajes[i].name}</h1></div>`
+                <div class='name'> <h1>${personajes[i].name}</h1></div>
+                <div class='name'> <h1>${personajes[i].dateOfBirth}`
+
         })
     }
 }
