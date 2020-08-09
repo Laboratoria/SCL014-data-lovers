@@ -27,7 +27,8 @@ const mostrarPersonajes = () => {
                 <img src = ${personajes[i].image}></div>
                 <div class='name'> <h1>${personajes[i].name}</h1></div>
                 <div class='dateOfBirth'><h1>${personajes[i].dateOfBirth}</h1></div>
-                <div class= 'patronus'><h1>${personajes[i].patronus}</h1></div>`
+                <div class= 'patronus'><h1>${personajes[i].patronus}</h1></div>
+                <div> hola </div>`
         })
     }
 }
