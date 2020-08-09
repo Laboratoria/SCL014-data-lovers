@@ -21,16 +21,14 @@ const mostrarPersonajes = () => {
             //le doy funcionalidad al boton para mostrar los personajes en la pag
         let boton = document.getElementById("btn-personajes")
         boton.addEventListener("click", () => {
-            let namePersonaje = document.getElementById("name");
+            let datosPersonajes = document.getElementById("name");
 
-            namePersonaje.innerHTML +=
+            datosPersonajes.innerHTML +=
                 `<div class='imagenes'>
-                <img src = ${personajes[i].image }></div>
+                <img src = ${personajes[i].image}></div>
                 <div class='name'> <h1>${personajes[i].name}</h1></div>
-                <div class='dateOfBirth'> <h1>${personajes[i].dateOfBirth}</h1></div>
+                <div class='dateOfBirth'><h1>${personajes[i].dateOfBirth}</h1></div>
                 <div class= 'patronus'><h1>${personajes[i].patronus}</h1></div>`
-
-
         })
     }
 }
