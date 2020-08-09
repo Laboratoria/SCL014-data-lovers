@@ -1,23 +1,25 @@
-import { example, anotherExample } from '../src/data.js';
+import { mostrarPersonajes } from '../src/data.js';
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
+describe('mostrarPersonajes', () => {
+    // esta me deberia traer los names e imagenes de los personajes
+    test('should is a function', () => {
+        expect(typeof mostrarPersonajes).toBe('function');
+    });
+    //should yo espero que retornr
+    test('shoul return `personajes[i].name`', () => {
+        expect(mostrarPersonajes(personajes[i].name)).toBe('function');
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
+    });
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
+// describe('anotherExample', () => {
+//     it('is a function', () => {
+//         expect(typeof mostrarPersonajes).toBe('function');
+//     });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+//     it('returns `anotherExample`', () => {
+//         expect(anotherExample()).toBe('OMG');
+//     });
+// });

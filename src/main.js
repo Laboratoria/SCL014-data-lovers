@@ -32,3 +32,4 @@ const mostrarPersonajes = () => {
     }
 }
 mostrarPersonajes();
+console.log(typeof(mostrarPersonajes))
