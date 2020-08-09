@@ -5,11 +5,7 @@
 // Importar las funciones que creamos en el data.js
 
 './data.js';
-
 import data from './data/potter/potter.js';
-
-
-
 //console.log(example,data);
 // guardo la data en una variable y la llamo personajes
 //const personajes = data;
@@ -27,7 +23,11 @@ const mostrarPersonajes = () => {
         let boton = document.getElementById("btn-personajes")
         boton.addEventListener("click", () => {
             let namePersonaje = document.getElementById("name");
-            namePersonaje.innerHTML = 'Hola Bienvenido, elige un personaje:' + personajes[i].name;
+
+            namePersonaje.innerHTML +=
+                `<div class='imagenes'>
+                <img src = ${personajes[i].image }></div>
+                <div class='name'> <h1>${personajes[i].name}</h1></div>`
         })
     }
 }
