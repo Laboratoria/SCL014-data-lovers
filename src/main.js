@@ -1,4 +1,4 @@
-//import { example } from 
+//import { example,data } from 
 // aqui va todo lo del DOM para imprimir TODO  lo que queremos mostrar en el HTML
 
 // aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
@@ -27,7 +27,9 @@ const mostrarPersonajes = () => {
                 `<div class='imagenes'>
                 <img src = ${personajes[i].image }></div>
                 <div class='name'> <h1>${personajes[i].name}</h1></div>
-                <div class='name'> <h1>${personajes[i].dateOfBirth}`
+                <div class='dateOfBirth'> <h1>${personajes[i].dateOfBirth}</h1></div>
+                <div class= 'patronus'><h1>${personajes[i].patronus}</h1></div>`
+
 
         })
     }
