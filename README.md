@@ -1,6 +1,8 @@
-# Data Lovers
+# Amamos a Harry Potter
 
 ## Índice
+
+
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
@@ -16,15 +18,24 @@
 
 ## 1. Preámbulo
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+Por medio de la herramienta [Trello](https://trello.com/invite/b/TTwdmQHT/edbacbe0bdb2f2ed41096c422200969c/data-lovers) Dividimos el proyecto desde lo mas amplio que pedia nuestro cliente, hasta el paso a paso que necesitan nuestros usuarios para interactuar con la pagina y sus componentes.
+Dividiendo nuestro trabajo en cuatro columnas
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+ **-Lo que nos piden(Criterio minimo de aceptacion)**
+**-Como hacerlo (Objetivos de Aprendizajes)**
+**-Lo que estamos haciendo**
+**-Lo que ya hicimos**
+donde
+
+Escribiendo una especie de receta nos encontramos agregando los  ingredientes necesarios para convertir nuestra idea en una realidad, cuidando la estetica y lo que el ususario necesita para usar nuestra aplicacion. _interfaces_ y _visualizaciones_
+
+Poco a poco hemos definido un paso a paso que expondremos.
+
+1. Entender que nos estan pidiendo
+2. Hacer Planificacion(Trello, google calendar)
+3. Hacer un primer bozeto de baja fidelidad donde organizamos nuestras ideas a mano.
+4. Buscar las imagenes y colores correcto para empezar a hacer nuestro prototipo de alta fidelidad.
+5. Hacer prototipo de altal fedelidad por medio de [Figma](https://www.figma.com/file/bqaSp8DrxUJ5YCDiRuS3MA/Untitled?node-id=33%3A6)
 
 En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
 izquierda se puede construir una interfaz amigable y entendible por el usuario
@@ -469,6 +480,9 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [Jest](https://jestjs.io/)
 
 #### Organización del Trabajo
+bozeto.jpeg
+
+
 
 * [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
   Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
