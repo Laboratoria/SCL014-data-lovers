@@ -1,38 +1,77 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <header class="header"
-   <div id="root">
-    <input type="image" src="./imagenes/Logo wizarding.png" id="RegresarPrimeraPantalla"/>
-     <ul>
-      <li><a id="btn-personajes">Personajes</a>
-      <div id="name"></div></li>
-      <li><a target="_blank" href="https://www.dondeir.com/cine-y-tv/donde-ver-todas-las-peliculas-de-harry-potter-en-linea/2020/06/">Descargables</a> <!--el atributo target sirve para abrir una pagina fuera de la pagina de nosotras --></li>
-      <li><a target="_blank" href="">Videos</a></li>
-      <li><a target="_blank" href="https://www.wizardingworld.com/">Conoce mas!</a></li>
-      <li><a target="_blank" href="https://www.wizardingworld.com/about-the-fan-club">Club de Fans</a></li>
-     </ul>
+    <header class="header">
+        <!-- pantalla de inicio con la  barra-->
+        <div id="pagina1">
+            <input type="image" src="./imagenes/Logo wizarding.png" id="RegresarPrimeraPantalla" />
+            <ul>
+                <li><a id="btn-personajes">Personajes</a>
+                    <div id="name"></div>
+                </li>
+                <li><a target="_blank" href="https://www.dondeir.com/cine-y-tv/donde-ver-todas-las-peliculas-de-harry-potter-en-linea/2020/06/">Descargables</a>
+                    <!--el atributo target sirve para abrir una pagina fuera de la pagina de nosotras -->
+                </li>
+                <li><a target="_blank" href="">Videos</a></li>
+                <li><a target="_blank" href="https://www.wizardingworld.com/">Conoce mas!</a></li>
+                <li><a target="_blank" href="https://www.wizardingworld.com/about-the-fan-club">Club de Fans</a></li>
+            </ul>
     </header>
+    <input type="image" src="./imagenes/Hogwarts.png" id="Entra al castillo" />
+    <img src="./imagenes/Estrellas.png" alt="Fondo Estrellas">
+    </div>
+    <!-- fin de primera pantalla -->
 
-      <!-- primera pantalla -->
-     <input type="image" src="./imagenes/Hogwarts.png" id="Entra al castillo"/>
-     <img src="./imagenes/Estrellas.png" alt="Fondo Estrellas">
-   </div>
+    <!-- segunda  pantalla pag2-->
+    <section id="pag2">
+        <input type="image" src="./imagenes/banderin 2 g.png" id="EntraCasaG">
+        <input type="image" src="./imagenes/banderin 4 S.png" id="EntraCasaS">
+        <input type="image" src="./imagenes/banderin 4 H.png" id="EntraCasaH ">
+        <input type="image" src="./imagenes/banderin 2 S.png" id="EntraCasaR">
+    </section>
 
+    <!-- Fin de Segunda pantalla de las casas-->
 
-   <main>
-     <!-- Segunda de las casas-->
-     
-   </main>
-  
-    <script src="main.js" type="module"></script>
-  </body>
+    <!-- Tercera página para mostrar personajes de la casa G-->
+    <section id="pag3">
+        <p id="MostrarPersonajesG"></p>
+        <input type="image" src="./imagenes/Gryffindor.png" class="VolverTodasCasas">
+    </section>
+    <!-- fin de tercera página-->
+
+    <!-- Cuarta página para mostrar personajes de la casa S-->
+    <section id="pag4">
+        <p id="MostrarPersonajesS"></p>
+        <input type="image" src="./imagenes/Slytherin.png" class="VolverTodasCasas">
+    </section>
+    <!-- fin de cuarta pagina-->
+
+    <!-- Quinta página para mostrar personajes de la casa H-->
+    <section id="pag5">
+        <p id="MostrarPersonajesH"></p>
+        <input type="image" src="./imagenes/Hufflepuff.png" class="VolverTodasCasas">
+    </section>
+
+    <!-- fin de quinta pagina-->
+
+    <!-- Sexta página para mostrar personajes de la casa R-->
+    <section id="pag6">
+        <p id="MostrarPersonajesR"></p>
+        <input type="image" src="./imagenes/Ravenclaw.png" class="VolverTodasCasas">
+    </section>
+    <!-- fin de sexta página-->
+
+    <script src="main.js" type="module">
+    </script>
+</body>
+
 </html>
