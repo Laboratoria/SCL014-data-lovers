@@ -15,8 +15,8 @@ const mostrarPersonajes = () => {
                     <img src =${ data[i].image}>
                     <p> Nombre en la saga: ${data[i].name} </p> 
                     <p> Tipo de patronus: ${data[i].patronus} < /p> 
-                    <p> Nombre del actor: ${data[i].actor } </p> 
-                    <p> Fecha de nacimiento:${data[i].dateOfBirth } </p>
+                    <p> Nombre del actor: ${data[i].actor} </p> 
+                    <p> Fecha de nacimiento:${data[i].dateOfBirth} </p>
                      </section >`
         });
     }
