@@ -1,25 +1,28 @@
 //import {} from
-//import data from './data/potter/potter.js'
-
+import {
+    data
+} from './data/potter/potter.js'
 //FUNCION PARA MOSTRAR DATA
 const mostrarPersonajes = () => {
     // realizo el recorrido con un for de la nueva variable para verificar que se guardo bien y semuestra la data
     for (let i = 0; i <= data.length; i++) {
+        console.log(data[i])
         let boton = document.getElementById("btn-personajes")
         boton.addEventListener("click", () => {
-            let namePersonaje = document.getElementById("name");
+            let namePersonaje = document.getElementById("datos");
             namePersonaje.innerHTML +=
-                ` <section> <div class = 'imagenes'>
-                       <img src = ${data[i].image }> </div>
-     <div class ='name'> <p> Nombre en la saga: ${data[i].name } </p></div >
-    <div class = 'name'> <p> Tipo de patronus: ${data[i].patronus} </p>
-     <div class = 'name'> <p> Componente de Varita: ${data[i].wand} </p>
-      <div class = 'name'> <p> Nombre del actor: ${data[i].actor } </p>
-       <div class = 'name'> <p> Fecha de nacimiento: ${data[i].dateOfBirth}</div></section>`
-        })
+                `<section class ='imagenes'>
+                    <img src =${ data[i].image}>
+                    <p> Nombre en la saga: ${data[i].name} </p> 
+                    <p> Tipo de patronus: ${data[i].patronus} < /p> 
+                    <p> Nombre del actor: ${data[i].actor } </p> 
+                    <p> Fecha de nacimiento:${data[i].dateOfBirth } </p>
+                     </section >`
+        });
     }
 }
 mostrarPersonajes();
+
 
 // aqui va todo lo del DOM para imprimir TODO  lo que queremos mostrar en el HTML
 // aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
