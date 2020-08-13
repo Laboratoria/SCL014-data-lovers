@@ -1,10 +1,5 @@
-//import { casaG, casaS, casaH, casaR } from
-
-// aqui va todo lo del DOM para imprimir TODO  lo que queremos mostrar en el HTML
-// aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
-// // Importar las funciones que creamos en el data.js
-// './data.js';
-import data from './data/potter/potter.js'
+//import {} from
+//import data from './data/potter/potter.js'
 
 //FUNCION PARA MOSTRAR DATA
 const mostrarPersonajes = () => {
@@ -14,48 +9,52 @@ const mostrarPersonajes = () => {
         boton.addEventListener("click", () => {
             let namePersonaje = document.getElementById("name");
             namePersonaje.innerHTML +=
-                `<section>
-                <div class='imagenes'>
-                <img src = ${data[i].image }></div>
-                <div class='name'> <h1>Nombre en la saga: ${data[i].name}</h1></div>
-                <div class='name'> <h1>Tipo de patronus: ${data[i].patronus}</div>
-                <div class='name'> <h1>Componente de Varita: ${data[i].wand}</div>
-                <div class='name'> <h1>Nombre del actor: ${data[i].actor}</div>
-                <div class='name'> <h1>Fecha de nacimiento: ${data[i].dateOfBirth}</div>
-                </section>`
+                ` <section> <div class = 'imagenes'>
+                       <img src = ${data[i].image }> </div>
+     <div class ='name'> <p> Nombre en la saga: ${data[i].name } </p></div >
+    <div class = 'name'> <p> Tipo de patronus: ${data[i].patronus} </p>
+     <div class = 'name'> <p> Componente de Varita: ${data[i].wand} </p>
+      <div class = 'name'> <p> Nombre del actor: ${data[i].actor } </p>
+       <div class = 'name'> <p> Fecha de nacimiento: ${data[i].dateOfBirth}</div></section>`
         })
     }
 }
 mostrarPersonajes();
 
-const OrdenarData = () => {
-        for (let i = 0; i <= data.length; i++) {
-            let ordenarNombres = data[i].name;
-            ordenarNombres.sort(function(a, b) {
-                        if (a.name > b.name) {
-                            return 1;
-                        }
-                        if (a.name < b.name) {
-                            return -1;
-                        }
-                        console.log(ordenarNombres)
-                    }
+// aqui va todo lo del DOM para imprimir TODO  lo que queremos mostrar en el HTML
+// aqui recorro toda la data sin filtrar ni ordenar, solo mostrar informacion e imagen 
+// // Importar las funciones que creamos en el data.js
+// './data.js';
 
 
-                    // document.getElementById('dataOrdenada').innerHTML = `
-                    //  < div class = "ordenar" >
-                    // < p > DataOrdenada < /p> <
-                    // input type = "button"
-                    // id = "ordenar_name"
-                    // value = "Alfabetico A-Z" > < br > < br >
-                    // <
-                    ///div> `
+// const OrdenarData = () => {
+//         for (let i = 0; i <= data.length; i++) {
+//             let ordenarNombres = data[i].name;
+//             ordenarNombres.sort(function(a, b) {
+//                         if (a.name > b.name) {
+//                             return 1;
+//                         }
+//                         if (a.name < b.name) {
+//                             return -1;
+//                         }
+//                         console.log(ordenarNombres)
+//                     }
 
 
-                    // // DECLARO VARIABLES PARA LAS PAGINAS Y LE DOY EVENTOS 
+// document.getElementById('dataOrdenada').innerHTML = `
+//  < div class = "ordenar" >
+// < p > DataOrdenada < /p> <
+// input type = "button"
+// id = "ordenar_name"
+// value = "Alfabetico A-Z" > < br > < br >
+// <
+///div> `
 
-                    // let pag2 = document.getElementById("pag2")
-                    // let pag3 = document.getElementById("pag3")
-                    // let pag4 = document.getElementById("pag4")
-                    // let pag5 = document.getElementById("pag5")
-                    // let pag6 = document.getElementById("pag6")
+
+// // DECLARO VARIABLES PARA LAS PAGINAS Y LE DOY EVENTOS 
+
+// let pag2 = document.getElementById("pag2")
+// let pag3 = document.getElementById("pag3")
+// let pag4 = document.getElementById("pag4")
+// let pag5 = document.getElementById("pag5")
+// let pag6 = document.getElementById("pag6")
