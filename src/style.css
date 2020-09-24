@@ -1,0 +1,231 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #container-page-welcome {
+        background-image: url('./imagenes/Estrellas.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      
+    }
+
+    #conatiner-page-second {
+        background-image: url('./imagenes/Adentro.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+
+    }
+
+    #Entraalcastillo {
+        background-attachment: fixed;
+        background-image: -moz-element(20);
+        justify-content: center;
+        top: 60%;
+        left: 70%;
+        right: 250%;
+        display: flex;
+        margin: auto;
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: Harry P;
+        color: white;
+    }
+
+    h2 {
+        font-size: 12px;
+        color: seashell;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        background: #242633;
+        width: 100%;
+        /*largo del header */
+    }
+
+    header nav {
+        /* display: flex; */
+        width: 100%;
+        font-family: Harry P;
+        font-size: 18,5px;
+        background-attachment: fixed;
+        justify-content: center;
+        font-weight: bold;
+        /* 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    }
+
+    .logo {
+        width: 100px;
+        height: 90px;
+        image-orientation: center;
+        background-position: center top;
+        display: flex;
+        margin: 10px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        display: flex;
+        /* height: 30%; */
+        /* line-height: 100%; */
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        background: #10141B; 
+        height: 45%;
+    }
+
+    header nav a {
+        padding: 16px 12px;
+        color: #f2f2ff;
+        text-decoration: none;
+        border-bottom: 0px solid transparent;
+        transition-duration: 3ms;
+        color: #D4AF37;
+        display: flex;
+        width: 100%;
+        /* justify-content: center; */
+    }
+
+    .header2 {
+        height: 30%;
+    }
+
+    .wrap {
+        width: 320px;
+        height: 319px;
+        margin: 30px;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .header2 nav {
+        line-height: 100%;
+    }
+
+    .tarjeta-wrap {
+        margin: 40px;
+        font-size: 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /* font-family: Harry P; */
+        /* Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+        text-shadow: gray;
+        font-weight: bold;
+    }
+
+    .tarjeta {
+        width: 210px;
+        height: 270px;
+        background-image: url(./imagenes/tarjeta.png);
+        background-size: 100%;
+        text-align: center;
+        border-style: solid;
+    }
+
+    .main img {
+        width: 30%;
+        border-radius: 9px;
+        border-style: solid;
+        border-color: black transparent;
+    }
+
+    .imagen img {
+        width: 50PX;
+    }
+    .sectionCasa {
+     display:flex;
+    }
+
+    #container-personajes {
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .filter-personajes {
+        width: 8%;
+        display: inline-block;
+    }
+    
+    #Entra_gryffindor,
+    #Entra_slytherin,
+    #Entra_hufflepuff,
+    #Entra_ravenclaw {
+        width: 70px;
+        min-width: 20px;
+        max-width: 70px;
+        height: 100px;
+        display: inline-block;
+        position: center;
+    }
+    footer {
+        background: #10141B;
+        text-align: center;
+        font-size: 15px;
+        font-family: Lucida Sans;
+        color: #f2f2ff;
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        bottom: 0;
+    }
+
+    footer img {
+        width: 50px;
+    } 
+
+    /* pantalla de escrirorio grande lg*/
+
+    @media (min-width: 1440px) {
+        #EntraalCastillo {
+            width: 80%;
+        }
+     /* pantalla escritorio mediana md */
+        @media(max-width: 1024px) and (min-width:799px) {
+           
+        }
+     /* pantalla table */
+        @media(max-width:800px) and (min-width:459px) {
+        
+        }
+    /* pantalla telefonos xs */
+        @media(max-width:528px)  and (min-width:320px)  {
+            header {
+                background: #242633;
+               
+            
+                /*largo del header */
+            }
+        
+            header nav {
+                line-height: 100%;
+ 
+            
+        }
+        header nav a {
+            padding: 10px 8px;
+            width: 100%;
+          
+        }
+    
+        .header2 {
+            width: 100%;
+        }
+    }
+    
+    }
